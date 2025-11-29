@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Roboto_1";
+    src:url(shrift/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Roboto_2";
+    src:url(shrift/ClickerScript-Regular.ttf);
+}
+.cofee{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(images/coffee_image.png);
+    background-repeat: no-repeat;
+}
+header{
+width: 100vw;
+height: 16vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+nav{
+width: 90%;
+height: 18%;
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+nav p{
+    color:#FFFFFF;
+font-size: 35px;
+font-family: "Roboto_2", sans-serif;
+}
+nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: "Roboto_1", sans-serif;
+}
+ nav ul{
+    width: 65vh;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.double_button {
+    width: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto_1", sans-serif;
+}.double_button button{width: 11vh; height: 5vh;
+border-radius: 40vh;border: none; cursor: pointer; background-color: #F9C06A; 
+box-shadow: 0 0 1vh #F9C06A;}
+.right_container{
+    
+    
+}
+ .right_container .p{
+    font-size: 150px;
+    font-family: "Roboto_2", sans-serif;
+ }
